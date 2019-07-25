@@ -8,4 +8,4 @@ build: copy_file.go
 linter:
 	golangci-lint run
 get:
-    go get -u $(PROJECT)
+	go get -u $(PROJECT)
